@@ -7,7 +7,7 @@ if length(size(f))==3
 end
 
 if sum(sum(f>1.1)>0)
-    f=f/256;
+    f=f/257;
 end
 
 
